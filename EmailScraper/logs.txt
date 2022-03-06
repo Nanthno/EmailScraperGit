@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-12-09T18:12:35.415259700Z</date>
+  <millis>1639073555415</millis>
+  <nanos>259700</nanos>
+  <sequence>0</sequence>
+  <logger>com.nanthno.Logging</logger>
+  <level>INFO</level>
+  <class>com.nanthno.Logging</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Logger started</message>
+</record>
+<record>
+  <date>2021-12-09T18:12:35.415259700Z</date>
+  <millis>1639073555415</millis>
+  <nanos>259700</nanos>
+  <sequence>1</sequence>
+  <logger>com.nanthno.Logging</logger>
+  <level>INFO</level>
+  <class>com.nanthno.Logging</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>start</message>
+</record>
+<record>
+  <date>2021-12-09T18:12:35.415259700Z</date>
+  <millis>1639073555415</millis>
+  <nanos>259700</nanos>
+  <sequence>2</sequence>
+  <logger>com.nanthno.Logging</logger>
+  <level>INFO</level>
+  <class>com.nanthno.Logging</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>0</message>
+</record>
+<record>
+  <date>2021-12-09T18:12:35.430884900Z</date>
+  <millis>1639073555430</millis>
+  <nanos>884900</nanos>
+  <sequence>3</sequence>
+  <logger>com.nanthno.Logging</logger>
+  <level>INFO</level>
+  <class>com.nanthno.Logging</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Set directoryPath to test-classes</message>
+</record>
+<record>
+  <date>2021-12-09T18:12:35.430884900Z</date>
+  <millis>1639073555430</millis>
+  <nanos>884900</nanos>
+  <sequence>4</sequence>
+  <logger>com.nanthno.Logging</logger>
+  <level>INFO</level>
+  <class>com.nanthno.Logging</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>1</message>
+</record>
+<record>
+  <date>2021-12-09T18:12:35.430884900Z</date>
+  <millis>1639073555430</millis>
+  <nanos>884900</nanos>
+  <sequence>5</sequence>
+  <logger>com.nanthno.Logging</logger>
+  <level>INFO</level>
+  <class>com.nanthno.Logging</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>2</message>
+</record>
+<record>
+  <date>2021-12-09T18:12:35.430884900Z</date>
+  <millis>1639073555430</millis>
+  <nanos>884900</nanos>
+  <sequence>6</sequence>
+  <logger>com.nanthno.Logging</logger>
+  <level>INFO</level>
+  <class>com.nanthno.Logging</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>set numThreads to 1</message>
+</record>
+</log>

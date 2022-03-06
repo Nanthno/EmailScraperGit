@@ -1,0 +1,34 @@
+Prereqs:
+- Java must be installed. If it is not, install it from here https://www.java.com/download/ie_manual.jsp
+
+Installation:
+- Extract the files from the zip to some directory.
+    - I recommend not having it in your downloads folder but other than that, it can be anywhere
+    - The "eng.traineddata" and jar MUST be in the same folder
+
+Usage:
+- Open a terminal in the file the jar is in
+    - right click on the file explorer and select "Open in Windows Terminal"
+- Run the command "java -jar EmailScraper-1.1.1.jar <image-directory> <output-file-name> <flags>" (without the quotes and replacing the things in angle brackets)
+    - Replace "EmailScraper-1.1.1.jar" as necessary if the version number is different
+    - <image-directory> is the folder where your images are stored.
+        - By default, it looks in the same folder the jar is in
+    - <output-file-name> is the base name of the csv file. It should not have the ".csv" part as that is added by the program
+        - if a file with that name already exists, it will try <name>1.csv, then <name>2.csv, etc until it finds an available name
+        - by default, the name is "output"
+    - <flags> are options that modify the way the program runs
+        - tc changes the thread count used to process the images (e.g. "-tc 16")
+            - by default, thread count is 8
+        - l will print long output. This will greatly increase the amount of prints the program outputs
+            - it is highly recommended this is only run with very limited input and with "-tc 1"
+                otherwise the sequence of outputs will be incorrect
+        -wd is used to flag any words that are within wd difference of each other (e.g. "-wd 4")
+            - default is 3
+    - Example commands
+        - "java -jar EmailScraper-1.1.1.jar"
+            - extracts images from working directory, saves to "output", runs with 8 cores
+        - "java -jar EmailScraper-1.1.1.jar EmailImages/ emailData -tc 16"
+            - extracts images from "./EmailImages/", saves to "emailData", runs with 16 cores
+- Running the program will create a "log.txt" file. This file contains more detail on the running of the program.
+    - It will be overwritten the next time the program is run
+
